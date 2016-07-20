@@ -1,0 +1,53 @@
+version: "2"
+services:
+  # This service MUST have the name "kdc-kadmin" otherwise every kerberos client won't be able to talk with the KDC.
+  # If you would like to change the name edit the file configureKerberosClient.sh and change the configurations
+  # "kdc" and "admin_server" in the /etc/krb5.conf section.
+  kdc-kadmin:
+    build: ./kdc-kadmin
+    env_file: kerberos.env
+    volumes:
+      # This is needed otherwise there won't be enough entropy to generate a new kerberos realm
+      - /dev/urandom:/dev/random
+
+  # This service MUST have the name "afs" otherwise every afs client won't be able to talk with the AFS server.
+  # If would like to change the name edit the file configureAFSClient.sh and change
+  afs:
+    build: ./afs
+    privileged: true
+    hostname: afs
+    domainname: example.com
+    env_file:
+      - kerberos.env
+      - afs.env
+    depends_on:
+      - kdc-kadmin
+
+  # If you change this service name also change it the start.sh script in the line right after the docker-compose up
+  afs-client:
+    build: ./afs-client
+    privileged: true
+    domainname: example.com
+    environment:
+      - AFS_SERVER=afs
+    env_file:
+      - kerberos.env
+      - afs.env
+    depends_on:
+      - kdc-kadmin
+      - afs
+    volumes:
+      - ../:/tmp/afs/
+      # This is needed otherwise there won't be enough entropy to install the java certificates
+      - /dev/urandom:/dev/random
+      # This bootstraps running sbt inside the container
+      - /root/.sbt:/root/.sbt
+      - /root/.ivy2:/root/.ivy2
+
+# NOTE:
+#  "env_file: kerberos.env" is optional.
+#  In case no .env file is supplied, nor any environment variable is set, the following values will be used:
+#   REALM=EXAMPLE.COM
+#   SUPPORTED_ENCRYPTION_TYPES=aes256-cts-hmac-sha1-96:normal
+#   KADMIN_PRINCIPAL=kadmin/admin
+#   KADMIN_PASSWORD=MITiys4K5
