@@ -35,9 +35,10 @@ Alternatively you can pass your Config object to the afs constructor, or subclas
 [Settings](https://ist-dsi.github.io/afs/latest/api/#pt.tecnico.dsi.afs.Settings) class for a mixed approach.
 The scaladoc of the Settings class has examples explaining the different options.
 
-## How to test afs
+## How to test akka-afs
 In the project root run `./test.sh`. This script will run `docker-compose up` inside the docker-afs folder.
-Be sure to have [docker](https://docs.docker.com/engine/installation/) and [docker-compose](https://docs.docker.com/compose/install/) installed on your computer.
+Be sure to have [vagrant](https://www.vagrantup.com/)
+
 
 ## Note on the docker-afs folder
 This folder is a [git fake submodule](http://debuggable.com/posts/git-fake-submodules:4b563ee4-f3cc-4061-967e-0e48cbdd56cb)
