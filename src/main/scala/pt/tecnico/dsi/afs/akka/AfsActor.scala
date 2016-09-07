@@ -15,6 +15,7 @@ object AfsActor {
   private[akka] case class SideEffectResult(recipient: ActorRef, response: Response)
   private case class RemoveResult(recipient: ActorRef, removeId: Option[DeliveryId])
 }
+
 /**
   *
   */

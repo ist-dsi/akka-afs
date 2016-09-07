@@ -1,7 +1,6 @@
 organization := "pt.tecnico.dsi"
-name := "akka-kadmin"
-version := "0.0.1"
-
+name := "akka-afs"
+version := "0.0.2"
 
 val javaVersion = "1.8"
 initialize := {
@@ -43,7 +42,8 @@ libraryDependencies ++= Seq(
   //Testing
   "org.scalatest" %% "scalatest" % "2.2.6" % "test",
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion % "test",
-
+  //Dimensions mainly information (KB, MB, etc)
+  "com.squants"  %% "squants"  % "0.6.2",
   "commons-io" % "commons-io" % "2.5" % Test
 )
 resolvers += Opts.resolver.sonatypeReleases
@@ -78,9 +78,7 @@ pomExtra :=
     </developer>
   </developers>
 
-import com.typesafe.sbt.GitPlugin.autoImport._
-import com.typesafe.sbt.SbtGhPages.ghpages
-import com.typesafe.sbt.SbtSite.site
+import ReleaseTransformations._
 releaseProcess := Seq[ReleaseStep](
   checkSnapshotDependencies,
   inquireVersions,

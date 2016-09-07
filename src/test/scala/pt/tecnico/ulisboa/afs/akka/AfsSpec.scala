@@ -1,4 +1,4 @@
-package pt.tecnico.ulisboa.pt
+package pt.tecnico.ulisboa.afs.akka
 
 import java.io.File
 
@@ -28,7 +28,6 @@ class AfsSpec extends ActorSysSpec {
     val r2 = expectMsgClass(classOf[ListQuotaResponse])
     r2.deliveryId shouldBe id3
     r2.quota.quota shouldBe newQuota
-
 
   }
 

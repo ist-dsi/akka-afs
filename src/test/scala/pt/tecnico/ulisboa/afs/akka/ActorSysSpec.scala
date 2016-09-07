@@ -1,4 +1,4 @@
-package pt.tecnico.ulisboa.pt
+package pt.tecnico.ulisboa.afs.akka
 
 import java.io.File
 
