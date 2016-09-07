@@ -76,6 +76,11 @@ pomExtra :=
       <name>Simão Martins</name>
       <url>https://github.com/Lasering</url>
     </developer>
+    <developer>
+      <id>botelhorui</id>
+      <name>Rui Botelho</name>
+      <url>https://github.com/botelhorui</url>
+    </developer>
   </developers>
 
 import ReleaseTransformations._
