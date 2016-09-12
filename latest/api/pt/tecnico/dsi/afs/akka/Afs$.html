@@ -1,0 +1,1471 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>Afs - pt.tecnico.dsi.afs.akka.Afs</title>
+          <meta name="description" content="Afs - pt.tecnico.dsi.afs.akka.Afs" />
+          <meta name="keywords" content="Afs pt.tecnico.dsi.afs.akka.Afs" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../lib/tools.tooltip.js"></script>
+      <script type="text/javascript" src="../../../../../lib/modernizr.custom.js"></script><script type="text/javascript" src="../../../../../lib/diagrams.js" id="diagrams-js"></script>
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'pt.tecnico.dsi.afs.akka.Afs$';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Object" src="../../../../../lib/object_big.png" />
+        <p id="owner"><a href="../../../../package.html" class="extype" name="pt">pt</a>.<a href="../../../package.html" class="extype" name="pt.tecnico">tecnico</a>.<a href="../../package.html" class="extype" name="pt.tecnico.dsi">dsi</a>.<a href="../package.html" class="extype" name="pt.tecnico.dsi.afs">afs</a>.<a href="package.html" class="extype" name="pt.tecnico.dsi.afs.akka">akka</a></p>
+        <h1>Afs</h1><h3><span class="morelinks"><div>Related Doc:
+            <a href="package.html" class="extype" name="pt.tecnico.dsi.afs.akka">package akka</a>
+          </div></span></h3><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Afs</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"><div class="comment cmt"></div><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><span class="extype" name="scala.AnyRef">AnyRef</span>, <span class="extype" name="scala.Any">Any</span></div>
+        </div></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol>
+                
+                <li class="alpha in"><span>Alphabetic</span></li>
+                <li class="inherit out"><span>By Inheritance</span></li>
+              </ol>
+            </div>
+        <div id="ancestors">
+                <span class="filtertype">Inherited<br />
+                </span>
+                <ol id="linearization">
+                  <li class="in" name="pt.tecnico.dsi.afs.akka.Afs"><span>Afs</span></li><li class="in" name="scala.AnyRef"><span>AnyRef</span></li><li class="in" name="scala.Any"><span>Any</span></li>
+                </ol>
+              </div><div id="ancestors">
+            <span class="filtertype"></span>
+            <ol>
+              <li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show All</span></li>
+            </ol>
+          </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="pt.tecnico.dsi.afs.akka.Afs.AddSite" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AddSiteextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="AddSite:AddSite"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$AddSite.html"><span class="name">AddSite</span></a><span class="params">(<span name="server">server: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="partition">partition: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@AddSiteextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.AddSiteResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AddSiteResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="AddSiteResponse:AddSiteResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$AddSiteResponse.html"><span class="name">AddSiteResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@AddSiteResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.AddUserToGroup" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AddUserToGroupextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="AddUserToGroup:AddUserToGroup"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$AddUserToGroup.html"><span class="name">AddUserToGroup</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="group">group: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@AddUserToGroupextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.AddUserToGroupResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="AddUserToGroupResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="AddUserToGroupResponse:AddUserToGroupResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$AddUserToGroupResponse.html"><span class="name">AddUserToGroupResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@AddUserToGroupResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.BackupVolume" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BackupVolumeextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="BackupVolume:BackupVolume"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$BackupVolume.html"><span class="name">BackupVolume</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@BackupVolumeextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.BackupVolumeResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BackupVolumeResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="BackupVolumeResponse:BackupVolumeResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$BackupVolumeResponse.html"><span class="name">BackupVolumeResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@BackupVolumeResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.CheckVolumes" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CheckVolumesextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="CheckVolumes:CheckVolumes"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$CheckVolumes.html"><span class="name">CheckVolumes</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@CheckVolumesextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.CheckVolumesResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CheckVolumesResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="CheckVolumesResponse:CheckVolumesResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$CheckVolumesResponse.html"><span class="name">CheckVolumesResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@CheckVolumesResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.CreateGroup" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CreateGroupextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="CreateGroup:CreateGroup"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$CreateGroup.html"><span class="name">CreateGroup</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="owner">owner: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@CreateGroupextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.CreateGroupResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CreateGroupResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="CreateGroupResponse:CreateGroupResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$CreateGroupResponse.html"><span class="name">CreateGroupResponse</span></a><span class="params">(<span name="id">id: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Int" class="extype" target="_top">Int</a></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@CreateGroupResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.CreateUser" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CreateUserextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="CreateUser:CreateUser"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$CreateUser.html"><span class="name">CreateUser</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="afsId">afsId: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Int" class="extype" target="_top">Int</a></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@CreateUserextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.CreateUserResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CreateUserResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="CreateUserResponse:CreateUserResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$CreateUserResponse.html"><span class="name">CreateUserResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@CreateUserResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.CreateVolume" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CreateVolumeextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="CreateVolume:CreateVolume"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$CreateVolume.html"><span class="name">CreateVolume</span></a><span class="params">(<span name="server">server: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="partition">partition: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="maxQuota">maxQuota: <a href="https://oss.sonatype.org/service/local/repositories/releases/archive/com/squants/squants_2.11/0.6.2/squants_2.11-0.6.2-javadoc.jar/!/index.html#squants.information.Information" class="extype" target="_top">Information</a></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@CreateVolumeextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.CreateVolumeResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="CreateVolumeResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="CreateVolumeResponse:CreateVolumeResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$CreateVolumeResponse.html"><span class="name">CreateVolumeResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@CreateVolumeResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.DeleteUserOrGroup" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DeleteUserOrGroupextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="DeleteUserOrGroup:DeleteUserOrGroup"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$DeleteUserOrGroup.html"><span class="name">DeleteUserOrGroup</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@DeleteUserOrGroupextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.DeleteUserOrGroupResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DeleteUserOrGroupResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="DeleteUserOrGroupResponse:DeleteUserOrGroupResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$DeleteUserOrGroupResponse.html"><span class="name">DeleteUserOrGroupResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@DeleteUserOrGroupResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="DeliveryId=Long"></a>
+      <a id="DeliveryId:DeliveryId"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">type</span>
+      </span>
+      <span class="symbol">
+        <span class="name">DeliveryId</span><span class="result"> = <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Long" class="extype" target="_top">Long</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@DeliveryId=Long" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.ExamineVolume" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ExamineVolumeextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="ExamineVolume:ExamineVolume"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$ExamineVolume.html"><span class="name">ExamineVolume</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ExamineVolumeextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.ExamineVolumeResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ExamineVolumeResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="ExamineVolumeResponse:ExamineVolumeResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$ExamineVolumeResponse.html"><span class="name">ExamineVolumeResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ExamineVolumeResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.Failed" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FailedextendsAfs.FailureResponsewithProductwithSerializable"></a>
+      <a id="Failed:Failed"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$Failed.html"><span class="name">Failed</span></a><span class="params">(<span name="errorCase">errorCase: <span class="extype" name="pt.tecnico.dsi.afs.ErrorCase">ErrorCase</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$FailureResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.FailureResponse">FailureResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@FailedextendsAfs.FailureResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.FailureResponse" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="FailureResponseextendsAfs.Response"></a>
+      <a id="FailureResponse:FailureResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$FailureResponse.html"><span class="name">FailureResponse</span></a><span class="result"> extends <a href="Afs$$Response.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Response">Response</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@FailureResponseextendsAfs.Response" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.FlushAll" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FlushAllextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="FlushAll:FlushAll"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$FlushAll.html"><span class="name">FlushAll</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@FlushAllextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.FlushAllResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="FlushAllResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="FlushAllResponse:FlushAllResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$FlushAllResponse.html"><span class="name">FlushAllResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@FlushAllResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.GetGroupOrUserId" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="GetGroupOrUserIdextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="GetGroupOrUserId:GetGroupOrUserId"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$GetGroupOrUserId.html"><span class="name">GetGroupOrUserId</span></a><span class="params">(<span name="username">username: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@GetGroupOrUserIdextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.GetGroupOrUserIdResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="GetGroupOrUserIdResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="GetGroupOrUserIdResponse:GetGroupOrUserIdResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$GetGroupOrUserIdResponse.html"><span class="name">GetGroupOrUserIdResponse</span></a><span class="params">(<span name="id">id: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Int" class="extype" target="_top">Int</a></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@GetGroupOrUserIdResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.GetGroupOrUserName" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="GetGroupOrUserNameextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="GetGroupOrUserName:GetGroupOrUserName"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$GetGroupOrUserName.html"><span class="name">GetGroupOrUserName</span></a><span class="params">(<span name="id">id: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Int" class="extype" target="_top">Int</a></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@GetGroupOrUserNameextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.GetGroupOrUserNameResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="GetGroupOrUserNameResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="GetGroupOrUserNameResponse:GetGroupOrUserNameResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$GetGroupOrUserNameResponse.html"><span class="name">GetGroupOrUserNameResponse</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@GetGroupOrUserNameResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.ListACL" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ListACLextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="ListACL:ListACL"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$ListACL.html"><span class="name">ListACL</span></a><span class="params">(<span name="directory">directory: <span class="extype" name="java.io.File">File</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ListACLextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.ListACLResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ListACLResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="ListACLResponse:ListACLResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$ListACLResponse.html"><span class="name">ListACLResponse</span></a><span class="params">(<span name="list">list: (<span class="extype" name="scala.Predef.Map">Map</span>[<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="pt.tecnico.dsi.afs.Permission">Permission</span>], <span class="extype" name="scala.Predef.Map">Map</span>[<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="pt.tecnico.dsi.afs.Permission">Permission</span>])</span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ListACLResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.ListGroups" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ListGroupsextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="ListGroups:ListGroups"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$ListGroups.html"><span class="name">ListGroups</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ListGroupsextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.ListGroupsResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ListGroupsResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="ListGroupsResponse:ListGroupsResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$ListGroupsResponse.html"><span class="name">ListGroupsResponse</span></a><span class="params">(<span name="groups">groups: <span class="extype" name="scala.Seq">Seq</span>[(<span class="extype" name="scala.Predef.String">String</span>, <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Int" class="extype" target="_top">Int</a>, <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Int" class="extype" target="_top">Int</a>, <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Int" class="extype" target="_top">Int</a>)]</span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ListGroupsResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.ListMount" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ListMountextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="ListMount:ListMount"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$ListMount.html"><span class="name">ListMount</span></a><span class="params">(<span name="directory">directory: <span class="extype" name="java.io.File">File</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ListMountextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.ListMountResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ListMountResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="ListMountResponse:ListMountResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$ListMountResponse.html"><span class="name">ListMountResponse</span></a><span class="params">(<span name="vol">vol: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ListMountResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.ListQuota" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ListQuotaextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="ListQuota:ListQuota"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$ListQuota.html"><span class="name">ListQuota</span></a><span class="params">(<span name="directory">directory: <span class="extype" name="java.io.File">File</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ListQuotaextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.ListQuotaResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ListQuotaResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="ListQuotaResponse:ListQuotaResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$ListQuotaResponse.html"><span class="name">ListQuotaResponse</span></a><span class="params">(<span name="quota">quota: <span class="extype" name="pt.tecnico.dsi.afs.Quota">Quota</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ListQuotaResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.MakeMount" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MakeMountextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="MakeMount:MakeMount"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$MakeMount.html"><span class="name">MakeMount</span></a><span class="params">(<span name="directory">directory: <span class="extype" name="java.io.File">File</span></span>, <span name="volume">volume: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@MakeMountextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.MakeMountResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MakeMountResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="MakeMountResponse:MakeMountResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$MakeMountResponse.html"><span class="name">MakeMountResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@MakeMountResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.Membership" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MembershipextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="Membership:Membership"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$Membership.html"><span class="name">Membership</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@MembershipextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.MembershipResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="MembershipResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="MembershipResponse:MembershipResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$MembershipResponse.html"><span class="name">MembershipResponse</span></a><span class="params">(<span name="members">members: <span class="extype" name="scala.Predef.Set">Set</span>[<span class="extype" name="scala.Predef.String">String</span>]</span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@MembershipResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.ReleaseVolume" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ReleaseVolumeextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="ReleaseVolume:ReleaseVolume"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$ReleaseVolume.html"><span class="name">ReleaseVolume</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ReleaseVolumeextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.ReleaseVolumeResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="ReleaseVolumeResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="ReleaseVolumeResponse:ReleaseVolumeResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$ReleaseVolumeResponse.html"><span class="name">ReleaseVolumeResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ReleaseVolumeResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.RemoveDeduplicationResult" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RemoveDeduplicationResultextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="RemoveDeduplicationResult:RemoveDeduplicationResult"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$RemoveDeduplicationResult.html"><span class="name">RemoveDeduplicationResult</span></a><span class="params">(<span name="removeId">removeId: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Option" class="extype" target="_top">Option</a>[<a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a>]</span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@RemoveDeduplicationResultextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.RemoveMount" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RemoveMountextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="RemoveMount:RemoveMount"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$RemoveMount.html"><span class="name">RemoveMount</span></a><span class="params">(<span name="directory">directory: <span class="extype" name="java.io.File">File</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@RemoveMountextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.RemoveMountResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RemoveMountResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="RemoveMountResponse:RemoveMountResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$RemoveMountResponse.html"><span class="name">RemoveMountResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@RemoveMountResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.RemoveUserFromGroup" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RemoveUserFromGroupextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="RemoveUserFromGroup:RemoveUserFromGroup"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$RemoveUserFromGroup.html"><span class="name">RemoveUserFromGroup</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="group">group: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@RemoveUserFromGroupextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.RemoveUserFromGroupResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RemoveUserFromGroupResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="RemoveUserFromGroupResponse:RemoveUserFromGroupResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$RemoveUserFromGroupResponse.html"><span class="name">RemoveUserFromGroupResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@RemoveUserFromGroupResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.RemoveVolume" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RemoveVolumeextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="RemoveVolume:RemoveVolume"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$RemoveVolume.html"><span class="name">RemoveVolume</span></a><span class="params">(<span name="server">server: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="partition">partition: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@RemoveVolumeextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.RemoveVolumeResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RemoveVolumeResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="RemoveVolumeResponse:RemoveVolumeResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$RemoveVolumeResponse.html"><span class="name">RemoveVolumeResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@RemoveVolumeResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.Request" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="RequestextendsAnyRef"></a>
+      <a id="Request:Request"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$Request.html"><span class="name">Request</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@RequestextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.Response" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ResponseextendsAnyRef"></a>
+      <a id="Response:Response"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$Response.html"><span class="name">Response</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ResponseextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.SetACL" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SetACLextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="SetACL:SetACL"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$SetACL.html"><span class="name">SetACL</span></a><span class="params">(<span name="directory">directory: <span class="extype" name="java.io.File">File</span></span>, <span name="acls">acls: <span class="extype" name="scala.Predef.Map">Map</span>[<span class="extype" name="scala.Predef.String">String</span>, <span class="extype" name="pt.tecnico.dsi.afs.Permission">Permission</span>]</span>, <span name="negative">negative: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Boolean" class="extype" target="_top">Boolean</a> = <span class="symbol">false</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@SetACLextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.SetACLResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SetACLResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="SetACLResponse:SetACLResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$SetACLResponse.html"><span class="name">SetACLResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@SetACLResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.SetQuota" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SetQuotaextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="SetQuota:SetQuota"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$SetQuota.html"><span class="name">SetQuota</span></a><span class="params">(<span name="directory">directory: <span class="extype" name="java.io.File">File</span></span>, <span name="quota">quota: <a href="https://oss.sonatype.org/service/local/repositories/releases/archive/com/squants/squants_2.11/0.6.2/squants_2.11-0.6.2-javadoc.jar/!/index.html#squants.information.Information" class="extype" target="_top">Information</a></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@SetQuotaextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.SetQuotaResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SetQuotaResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="SetQuotaResponse:SetQuotaResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$SetQuotaResponse.html"><span class="name">SetQuotaResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@SetQuotaResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="SuccessResponseextendsAfs.Response"></a>
+      <a id="SuccessResponse:SuccessResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$SuccessResponse.html"><span class="name">SuccessResponse</span></a><span class="result"> extends <a href="Afs$$Response.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Response">Response</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@SuccessResponseextendsAfs.Response" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.Successful" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="SuccessfulextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="Successful:Successful"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$Successful.html"><span class="name">Successful</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@SuccessfulextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.VolumeExists" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="VolumeExistsextendsAfs.RequestwithProductwithSerializable"></a>
+      <a id="VolumeExists:VolumeExists"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$VolumeExists.html"><span class="name">VolumeExists</span></a><span class="params">(<span name="name">name: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="server">server: <span class="extype" name="scala.Predef.String">String</span></span>, <span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$Request.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.Request">Request</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@VolumeExistsextendsAfs.RequestwithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li><li name="pt.tecnico.dsi.afs.akka.Afs.VolumeExistsResponse" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="VolumeExistsResponseextendsAfs.SuccessResponsewithProductwithSerializable"></a>
+      <a id="VolumeExistsResponse:VolumeExistsResponse"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">case class</span>
+      </span>
+      <span class="symbol">
+        <a href="Afs$$VolumeExistsResponse.html"><span class="name">VolumeExistsResponse</span></a><span class="params">(<span name="deliveryId">deliveryId: <a href="#DeliveryId=Long" class="extmbr" name="pt.tecnico.dsi.afs.akka.Afs.DeliveryId">DeliveryId</a></span>)</span><span class="result"> extends <a href="Afs$$SuccessResponse.html" class="extype" name="pt.tecnico.dsi.afs.akka.Afs.SuccessResponse">SuccessResponse</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Product" class="extype" target="_top">Product</a> with <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Serializable" class="extype" target="_top">Serializable</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@VolumeExistsResponseextendsAfs.SuccessResponsewithProductwithSerializable" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div id="values" class="values members">
+              <h3>Value Members</h3>
+              <ol><li name="scala.AnyRef#!=" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="!=(x$1:Any):Boolean"></a>
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $bang$eq" class="name">!=</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Boolean" class="extype" target="_top">Boolean</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@!=(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef###" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="##():Int"></a>
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $hash$hash" class="name">##</span><span class="params">()</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Int" class="extype" target="_top">Int</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@##():Int" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#==" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="==(x$1:Any):Boolean"></a>
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span title="gt4s: $eq$eq" class="name">==</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Boolean" class="extype" target="_top">Boolean</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@==(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.Any#asInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span class="extype" name="scala.Any.asInstanceOf.T0">T0</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@asInstanceOf[T0]:T0" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.AnyRef#clone" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="clone():Object"></a>
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">clone</span><span class="params">()</span><span class="result">: <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@clone():Object" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.CloneNotSupportedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#eq" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="eq(x$1:AnyRef):Boolean"></a>
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">eq</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Boolean" class="extype" target="_top">Boolean</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@eq(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#equals" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="equals(x$1:Any):Boolean"></a>
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.Any">Any</span></span>)</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Boolean" class="extype" target="_top">Boolean</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@equals(x$1:Any):Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#finalize" visbl="prt" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="finalize():Unit"></a>
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">finalize</span><span class="params">()</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Unit" class="extype" target="_top">Unit</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@finalize():Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a href="../../../../../java$lang.html" class="extype" name="java.lang">java.lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="symbol">classOf[java.lang.Throwable]</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#getClass" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="getClass():Class[_]"></a>
+      <a id="getClass():Class[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.Class">Class</span>[_]</span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@getClass():Class[_]" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#hashCode" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="hashCode():Int"></a>
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Int" class="extype" target="_top">Int</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@hashCode():Int" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.Any#isInstanceOf" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Boolean" class="extype" target="_top">Boolean</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@isInstanceOf[T0]:Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="scala.AnyRef#ne" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="ne(x$1:AnyRef):Boolean"></a>
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ne</span><span class="params">(<span name="arg0">arg0: <span class="extype" name="scala.AnyRef">AnyRef</span></span>)</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Boolean" class="extype" target="_top">Boolean</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@ne(x$1:AnyRef):Boolean" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notify" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notify():Unit"></a>
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notify</span><span class="params">()</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Unit" class="extype" target="_top">Unit</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@notify():Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#notifyAll" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="notifyAll():Unit"></a>
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Unit" class="extype" target="_top">Unit</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@notifyAll():Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#synchronized" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="synchronized[T0](x$1:=&gt;T0):T0"></a>
+      <a id="synchronized[T0](⇒T0):T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>)</span><span class="result">: <span class="extype" name="java.lang.AnyRef.synchronized.T0">T0</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@synchronized[T0](x$1:=&gt;T0):T0" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li name="scala.AnyRef#toString" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="toString():String"></a>
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: <span class="extype" name="java.lang.String">String</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@toString():String" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait():Unit"></a>
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">()</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Unit" class="extype" target="_top">Unit</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@wait():Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long,x$2:Int):Unit"></a>
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Long" class="extype" target="_top">Long</a></span>, <span name="arg1">arg1: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Int" class="extype" target="_top">Int</a></span>)</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Unit" class="extype" target="_top">Unit</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@wait(x$1:Long,x$2:Int):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li><li name="scala.AnyRef#wait" visbl="pub" data-isabs="false" fullComment="yes" group="Ungrouped">
+      <a id="wait(x$1:Long):Unit"></a>
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Long" class="extype" target="_top">Long</a></span>)</span><span class="result">: <a href="http://www.scala-lang.org/api/2.11.8/index.html#scala.Unit" class="extype" target="_top">Unit</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#pt.tecnico.dsi.afs.akka.Afs$@wait(x$1:Long):Unit" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">(<span>
+      
+      <span class="defval" name="classOf[java.lang.InterruptedException]">...</span>
+    </span>)</span>
+              
+        </dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div class="parent" name="scala.AnyRef">
+              <h3>Inherited from <span class="extype" name="scala.AnyRef">AnyRef</span></h3>
+            </div><div class="parent" name="scala.Any">
+              <h3>Inherited from <span class="extype" name="scala.Any">Any</span></h3>
+            </div>
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
