@@ -15,7 +15,7 @@ TODO
 ## Install
 Add the following dependency to your `build.sbt`:
 ```sbt
-libraryDependencies += "pt.tecnico.dsi" %% "akka-afs" % "0.0.2"
+libraryDependencies += "pt.tecnico.dsi" %% "akka-afs" % "0.0.3"
 ```
 We use [semantic versioning](http://semver.org).
 
