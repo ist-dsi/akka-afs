@@ -69,7 +69,7 @@ class AfsActor(val settings: Settings = new Settings()) extends Actor with Persi
         case None =>
           log.debug("There is no previously computed result. Probably it is still being computed. Going to retry.")
           //We schedule the retry by sending it to the blockingActor, which in turn will send it back to us.
-          //This strategy as a few advantages:
+          //This strategy has a few advantages:
           // · The retry will only be processed in the blockingActor after the previous expects are executed.
           //   This is helpful since the result in which we are interested will likely be obtained by executing
           //   one of the previous expects.
